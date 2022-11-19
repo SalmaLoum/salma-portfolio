@@ -1,0 +1,55 @@
+/* Universal Selector */
+* {
+}
+
+/* Element Selectors */
+body {
+}
+
+h1,
+h2 {
+}
+
+main {
+}
+
+li {
+}
+
+a {
+}
+
+header,
+footer {
+}
+
+header {
+}
+
+footer {
+}
+
+figure {
+}
+
+img {
+}
+
+section {
+}
+
+/* Center the form on the page */
+
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
+
+/* ID Selectors*/
+
+#bio {
+}
