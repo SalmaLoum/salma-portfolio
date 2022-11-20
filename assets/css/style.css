@@ -1,55 +1,59 @@
 /* Universal Selector */
 * {
+  background-color: black;
+}
+
+/* Variable Elements */
+:root {
+  --light: #64563d;
+  --center: center;
 }
 
 /* Element Selectors */
-body {
-}
-
-h1,
-h2 {
-}
-
-main {
-}
-
-li {
-}
-
-a {
-}
-
-header,
-footer {
-}
 
 header {
 }
 
+h1 {
+  color: var(--light);
+}
+
+nav {
+  color: var(--light);
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+li {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 20px;
+}
+
+a {
+  color: var(--light);
+}
+
 footer {
+  color: var(--light);
+  text-align: var(--center);
+  padding: 20px;
+  margin: 20px;
+  height: 300px;
 }
 
 figure {
+  display: inline;
+  align-items: center;
+  max-width: 600px;
 }
-
-img {
-}
-
-section {
-}
-
-/* Center the form on the page */
 
 /* Class Selectors */
-.text-center {
-  text-align: center;
-}
-
-.text-right {
-  text-align: right;
-}
 
 /* ID Selectors*/
-
-#bio {
-}
