@@ -1,6 +1,6 @@
 /* Universal Selector */
 * {
-  background-color: black;
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
 }
 
 /* Variable Elements */
@@ -12,21 +12,34 @@
 /* Element Selectors */
 
 header {
+  padding: 20px;
+  margin: 20px;
+  background-color: var(--light);
 }
 
 h1 {
-  color: var(--light);
+  color: black;
+  background-color: var(--light);
+  font-size: 40px;
+  padding: 20px;
+  margin: 20px;
 }
 
 nav {
-  color: var(--light);
+  color: black;
   font-size: 20px;
-  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  padding-top: 15px;
+  margin-right: 20px;
+  font-size: 30px;
 }
 
 ul {
   display: flex;
   list-style: none;
+  margin: -20px;
+  background-color: var(--light);
+  justify-content: flex-end;
 }
 
 li {
@@ -36,8 +49,57 @@ li {
   padding: 20px;
 }
 
+li a {
+  color: white;
+  background-color: var(--light);
+}
+main {
+}
+
 a {
   color: var(--light);
+}
+
+p {
+  font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+}
+figure {
+  display: flex;
+  margin: 10px auto;
+  justify-content: center;
+  align-content: center;
+}
+
+img {
+}
+
+form {
+  /* Center the form on the page */
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+
+input,
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  text-align: center;
 }
 
 footer {
@@ -48,12 +110,18 @@ footer {
   height: 300px;
 }
 
-figure {
-  display: inline;
-  align-items: center;
-  max-width: 600px;
-}
-
 /* Class Selectors */
 
+.horizontal-box {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  background-color: var(--light);
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.form-text {
+  text-align: right;
+}
 /* ID Selectors*/
