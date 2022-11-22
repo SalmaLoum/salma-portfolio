@@ -277,9 +277,9 @@ footer {
   }
 
   .small-image {
-    max-width: 80%;
+    max-width: 100px;
   }
   .large-image {
-    max-width: 80%;
+    max-width: 100px;
   }
 }
