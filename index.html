@@ -9,12 +9,19 @@
 
   <body>
     <header>
-      <h1>Salma<span class="Loum"> Loum</span></h1>
       <!--nav code -->
-      <nav class="nav-text">
+      <nav>
+        <h1>Salma Loum</h1>
         <ul>
           <li><a href="#Bio"> Bio </a></li>
-          <li><a href src="./assets/images/Salma_Loum_CV.pdf"> Resume </a></li>
+          <li>
+            <a
+              href="https://salmaloum.github.io/salma-portfolio/assets/images/Salma_Loum_CV.pdf"
+            >
+              Resume
+            </a>
+          </li>
+          <li><a href="#portfolio"> Portfolio </a></li>
           <li><a href="#contact"> Contact </a></li>
         </ul>
       </nav>
@@ -22,26 +29,27 @@
 
     <main>
       <!--lead image code -->
-      <figure>
-        <img
-          src="./assets/images/logo-2.jpeg"
-          alt="greometric circles part of a logo series"
-        />
-        <img
-          src="./assets/images/logo-middle.jpeg"
-          alt="greometric circles part of a logo series"
-        />
-        <img
-          src="./assets/images/logo-1.jpeg"
-          alt="greometric circles part of a logo series"
-        />
-      </figure>
+      <div class="lead-art">
+        <figure>
+          <img
+            src="./assets/images/logo-2.jpeg"
+            alt="greometric circles part of a logo series"
+          />
+          <img
+            src="./assets/images/logo-middle.jpeg"
+            alt="greometric circles part of a logo series"
+          />
+          <img
+            src="./assets/images/logo-1.jpeg"
+            alt="greometric circles part of a logo series"
+          />
+        </figure>
+      </div>
 
       <div id="Bio" class="horizontal-box">
-        <h2>Bio</h2>
+        <h2><pre>  < About Me/ > </pre></h2>
         <p>
-          Salma Loum is a data and graphics fellow for the Los Angeles Times.
-          She moved from Cairo to Los Angeles after covering the Egyptian
+          Salma moved from Cairo to Los Angeles after covering the Egyptian
           Revolution and Muslim Brotherhood unrest between 2011 and 2013. During
           that time, she was a freelance war-zone camera operator working with
           Sky News Arabia and BBC Arabia among other local Egyptian news
@@ -50,22 +58,65 @@
           <br />
           Loum graduated from Stanford University with a master’s degree in
           journalism with a focus on computational projects involving women’s
-          rights.Loum's most recent bylines are with the Los Angeles Times
-          covering diverse topics from sexual assault to mental health in youth.
-          Before that, she was at the Minneapolis Star Tribune data team
-          covering the reverberations following George Floyd’s murder and the
-          effects of the pandemic on domestic violence.
+          rights.
+          <br />
+          Her most recent bylines are with the Los Angeles Times covering
+          diverse topics from sexual assault to mental health in youth. Before
+          that, she was at the Minneapolis Star Tribune data team covering the
+          reverberations following George Floyd’s murder and the effects of the
+          pandemic on domestic violence.
           <br />
           <br />
           Her interests include hot yoga, hiking, traveling the world, and
           everything cameras. She is based in California, yet traveling the
           world and working with people who challenge her is her number one
-          drive. Her passport is always ready for a new adventure.
+          drive. Her passport is always ready for a new adventure!
         </p>
       </div>
 
+      <div id="portfolio" class="horizontal-box">
+        <h2><pre>  < Portfolio/ > </pre></h2>
+        <ul>
+          <li>
+            <figure>
+              <img src="assets/images/topper 600.gif" alt="" />
+              <figcaption>
+                <a
+                  href=" https://www.latimes.com/projects/what-to-do-after-a-sexual-assault/"
+                >
+                  <pre>
+After sexual assault :
+A guide to the exams, your rights and your choices </pre
+                  >
+                </a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/images/button-1.png" alt="" />
+              <figcaption>
+                <a
+                  href=" https://www.latimes.com/projects/2022-california-primary-election-polling-places-voting-center-ballot-drop-boxes/#nt=0000016a-0e43-dffa-a76b-3f6bfa3f0002-showMedia-liI3promoMedium-contentFooter"
+                >
+                  Where to vote in Southern California
+                </a>
+              </figcaption>
+            </figure>
+          </li>
+          <li>
+            <figure>
+              <img src="assets/images/button-2.png" alt="" />
+              <figcaption>
+                <a href=" https://www.salmaloum.com/"> Clips </a>
+              </figcaption>
+            </figure>
+          </li>
+        </ul>
+      </div>
+
       <div id="contact" class="horizontal-box">
-        <h2>Get in touch!</h2>
+        <h2><pre>  < ! Get in Touch > </pre></h2>
         <form>
           <ul>
             <li>
@@ -83,8 +134,7 @@
                 name="subject"
                 placeholder="Write something.."
                 style="height: 200px"
-              >
-              </textarea>
+              ></textarea>
             </li>
           </ul>
 
@@ -95,7 +145,7 @@
 
     <!--footer code -->
     <footer>
-      <h3>&copy; By Salma Loum</h3>
+      <h3>© 2022 Salma Loum. All rights reserved.</h3>
     </footer>
   </body>
 </html>
