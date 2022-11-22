@@ -275,4 +275,11 @@ footer {
   .lead-image {
     max-width: 50%;
   }
+
+  .small-image {
+    max-width: 80%;
+  }
+  .large-image {
+    max-width: 80%;
+  }
 }
