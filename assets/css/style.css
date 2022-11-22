@@ -264,6 +264,10 @@ footer {
   .side {
     display: none;
   }
+
+  .small-image {
+    flex-direction: column;
+  }
 }
 
 /* Small smartphones */
@@ -274,10 +278,6 @@ footer {
 
   .lead-image {
     max-width: 50%;
-  }
-
-  .small-image {
-    max-width: 100px;
   }
   .large-image {
     max-width: 100px;
