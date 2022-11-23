@@ -1,21 +1,24 @@
-/*--------------------------------------------*/
+/*----------------------*/
 /* Universal Selectors */
-/*------------------------------------------*/
+/*--------------------*/
 * {
   font-family: Arial, Sans-Serif;
 }
 
-/*--------------------------------------------*/
+/*---------------------*/
 /* Variable Selectors */
-/*------------------------------------------*/
+/*-------------------*/
 :root {
   --light: #b5a277;
   --center: center;
 }
 
-/*--------------------------------------------*/
+/*--------------------*/
 /* Element Selectors */
-/*------------------------------------------*/
+/*------------------*/
+
+/* Gradient background */
+
 body {
   background-image: linear-gradient(
     to bottom,
@@ -65,15 +68,13 @@ nav ul {
   margin: -20px;
 }
 
-/*--------------------------------------------*/
-/*  Changed color of links when user hovers  */
-/*------------------------------------------*/
+/*  To change color of links when user hovers  */
 
 nav ul :hover {
   color: var(--light);
 }
 
-li {
+nav li {
   display: flex;
   flex-direction: row;
   margin: 20px;
@@ -112,7 +113,6 @@ figcaption {
 }
 
 form {
-  /* Center the form on the page */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -123,9 +123,15 @@ form {
 
 form ul {
   display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
   justify-content: center;
+  flex-wrap: wrap;
+}
+
+form li {
+  display: flex;
+  flex-direction: row;
+  margin: 20px;
+  padding: 20px;
 }
 
 label {
@@ -159,13 +165,13 @@ button {
   border-style: inset;
 }
 
-/* The user's cursor is positioned over the element */
+/* When user's cursor is positioned over the element */
 button:hover {
   background-color: black;
   color: var(--light);
 }
 
-/* The user is actively pressing down on the element */
+/* When user is actively pressing down on the element */
 button:active {
   font-size: 110%;
   box-shadow: 0 0 10px white inset;
@@ -184,9 +190,9 @@ footer {
   background-color: black;
 }
 
-/*--------------------------------------------*/
+/*------------------*/
 /* Class Selectors */
-/*------------------------------------------*/
+/*----------------*/
 
 .lead-art {
   display: flex;
@@ -235,9 +241,9 @@ footer {
   text-align: center;
 }
 
-/*--------------------------------------------*/
+/*---------------*/
 /* ID Selectors */
-/*------------------------------------------*/
+/*-------------*/
 
 #portfolio figure {
   display: flex;
@@ -257,9 +263,7 @@ footer {
   justify-content: space-between;
 }
 
-/*---------------------------------------------*/
 /*  Changed image's opacity when user hovers  */
-/*-------------------------------------------*/
 
 #portfolio img:hover {
   opacity: 100%;
@@ -309,16 +313,15 @@ footer {
   nav ul {
     flex-direction: column;
   }
-
-  .lead-art {
-    width: 20%;
-  }
-
   .large-image {
     max-width: 50%;
   }
 
   .small-image {
     max-width: 50%;
+  }
+
+  form {
+    width: 200px;
   }
 }
