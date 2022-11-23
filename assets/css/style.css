@@ -99,9 +99,8 @@ p {
 
 figure {
   display: flex;
-  margin: 20px;
   justify-content: space-between;
-  align-content: center;
+  margin: 20px;
   border: 10px solid black;
   border-radius: 8%;
   background-color: black;
@@ -197,6 +196,7 @@ footer {
 .lead-art {
   display: flex;
   width: 80%;
+  margin: 0 auto;
 }
 .lead-art img {
   box-shadow: 0px -5px 33px 1px #b5a277;
@@ -310,8 +310,8 @@ footer {
 
 /* Small smartphones */
 @media screen and (max-width: 576px) {
-  nav ul {
-    flex-direction: column;
+  a {
+    font-size: 15px;
   }
   .large-image {
     max-width: 50%;
