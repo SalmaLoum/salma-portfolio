@@ -4,7 +4,7 @@
 
 ## Description
 
-With a crowded job hunting marketplace, this is my attempt to make my portofolio fit the developer mold.
+In a crowded job-hunting marketplace —this is my attempt to make my portfolio fit the developer mold. Check my portfolio out!
 
 ## Table of Contents (Optional)
 
@@ -15,18 +15,16 @@ With a crowded job hunting marketplace, this is my attempt to make my portofolio
 
 ## Installation
 
-Go to [webpage](https://salmaloum.github.io/salma-portfolio/) to navigate through my portfolio.
+Go to [webpage](https://salmaloum.github.io/salma-portfolio/) and scroll through Salma's portfolio.
 
 ## Usage
 
 Click on the navigation links or scroll through the page to learn more about me!
-To download my resume click on the Resume link and download the PDF, as shown below.
+To download my resume click on the "Resume" link and download the PDF, as shown below:
+
 ![Salma loum's Resume PDF](assets/images/resume-pdf-1.png)
+
 ![Salma loum's Resume PDF](assets/images/resume-pdf.png)
-
-The following image demonstrates the web application's appearance
-
-![Salma loum's webpage](assets/images/)
 
 ## Credits
 
@@ -38,4 +36,4 @@ The following image demonstrates the web application's appearance
 
 Please refer to the LICENSE in the repo.
 
---
+---
