@@ -6,8 +6,7 @@
 
 In a crowded job-hunting marketplace —this is my attempt to make my portfolio fit the developer mold. Check my portfolio out!
 
-## Table of Contents (Optional)
-
+## Table of Contents
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
